@@ -1,0 +1,512 @@
+body {
+margin: 0px auto;
+width: 100%;
+font-family: 'Josefin Sans', sans-serif;
+}
+nav ul li {
+list-style-type: none;
+float: left;
+padding-right: 2em;
+color: #e4e3e3;
+}
+nav ul li a {
+text-decoration: none;
+color: #e4e3e3;
+}
+a:hover {
+font-size: 20px;
+Border-bottom: 2px solid teal;
+}
+nav ul {
+float: right;
+}
+nav {
+width: 100%;
+height: 50px;
+background-color: #1d3532;
+position: fixed;
+}
+.image {
+background-image: url('/assets/styles/img/13.png');
+background-size: cover;
+padding-top: 50px;
+display: table;
+height: 100vh;
+width: 100%;
+}
+.inner {
+display: table-cell;
+vertical-align: middle;
+}
+.image .inner h1 {
+text-align: center;
+color: #138361;
+font-family: 'Dancing Script', cursive;
+font-weight: 600;
+font-size: 48px;
+}
+.image .inner img {
+border-radius: 100%;
+width: 250px;
+height: auto;
+display: table-cell;
+margin-left: auto;
+margin-right: auto;
+margin-top: 90px;
+}
+.about {
+background-image: url('/assets/styles/img/4.png');
+display: table;
+height: 100vh;
+width: 100%;
+background-size: cover;
+color: whitesmoke;
+}
+.about .inner {
+display: table-cell;
+vertical-align: middle;
+width: 50%;
+float: left;
+padding-top: 75px;
+padding-left: 50px;
+}
+.about .inner h2 {
+font-size: 42px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.about .inner p {
+font-size: 26px;
+font-family: 'Josefin Sans', sans-serif;
+width: 70%;
+}
+.education {
+background-color: gainsboro;
+display: table;
+height: 100vh;
+width: 100%;
+}
+.education .inner h1,
+.skills .inner h2 {
+margin-top: auto;
+padding-left: 150px;
+font-size: 42px;
+}
+.education .inner div,
+.skills .inner div {
+width: 30%;
+margin-left: 5px;
+margin-right: 5px;
+float: left;
+text-align: center;
+padding: 0px 5px;
+font-size: 20px;
+}
+.skills {
+background-image: url('/assets/styles/img/203.jpg');
+display: table;
+height: 100vh;
+width: 100%;
+background-size: auto;
+background-position-x: 350px;
+background-repeat: no-repeat;
+background-color: white;
+}
+.skills .inner {
+background-color: rgb(250, 248, 248, 0.6)
+}
+.education .inner div ul li,
+.skills .inner div ul li {
+list-style-type: none;
+}
+.others {
+background-image: url('/assets/styles/img/7.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+display: table;
+height: 100vh;
+width: 100%;
+}
+.others .inner {
+padding-top: 75px;
+padding-left: 50px;
+}
+.others .inner h1 {
+font-size: 42px;
+}
+.strengths {
+background-image: url('/assets/styles/img/3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+display: table;
+height: 100vh;
+width: 100%;
+}
+.strengths .inner {
+display: table-cell;
+vertical-align: middle;
+width: 70%;
+float: left;
+padding-top: 75px;
+padding-left: 50px;
+}
+.strengths h1 {
+font-size: 42px;
+padding-top: 50px;
+padding-left: 50px;
+}
+.strengths .inner ul li {
+font-size: 24px;
+line-height: 30px;
+}
+.hobbies {
+background-image: url('/assets/styles/img/012.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+display: table;
+height: 100vh;
+width: 100%;
+}
+.hobbies .inner h1 {
+font-size: 44px;
+color: teal;
+text-align: center;
+}
+.hobbies .inner ul li {
+list-style-type: none;
+font-size: 24px;
+color: rgb(11, 163, 148);
+text-align: center;
+}
+.contact {
+background-image: url('/assets/styles/img/42.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+display: table;
+height: 100vh;
+width: 100%;
+}
+.contact h1 {
+font-size: 44px;
+padding-top: 90px;
+padding-left: 50px;
+}
+.contact .inner p {
+padding-left: 50px;
+font-size: 24px;
+}
+@media (min-width:1024px)and (max-width:1439px) {
+.strengths .inner {
+width: 90%;
+}
+.education .inner div ul li,
+.skills .inner div ul li {
+font-size: 20px;
+}
+.education .inner h1,
+.skills .inner h2 {
+font-size: 58px;
+}
+.about .inner {
+width: 70%;
+margin-top: 42px;
+}
+.hobbies .inner ul li {
+width: 95%;
+}
+.others .inner {
+padding-left: 20px;
+}
+.others .inner h1 {
+width: 70%;
+}
+.others .inner ul li {
+font-size: 20px;
+width: 70%;
+}
+nav ul li {
+font-size: 18px;
+padding-right: 1em;
+}
+}
+@media (min-width:1440px) and (max-width:2559px) {
+nav {
+height: 70px;
+}
+nav ul li {
+font-size: 24px;
+padding-right: 1.4em;
+}
+.contact .inner p {
+font-size: 30px;
+}
+.contact .inner h1 {
+font-size: 80px;
+}
+.hobbies .inner h1 {
+font-size: 80px;
+}
+.hobbies .inner ul li {
+font-size: 34px;
+}
+.strengths h1 {
+font-size: 72px;
+margin-top: 170px;
+}
+.strengths .inner ul li {
+font-size: 34px;
+}
+.strengths .inner {
+width: 80%;
+margin-top: 10px;
+}
+.others .inner h1 {
+font-size: 72px;
+}
+.others .inner h2 {
+font-size: 42px;
+}
+.others .inner ul li {
+font-size: 32px;
+width: 80%;
+}
+.education .inner div ul li,
+.skills .inner div ul li {
+font-size: 26px;
+}
+.education .inner h1,
+.skills .inner h2 {
+font-size: 64px;
+}
+.about .inner {
+width: 90%;
+margin-top: 90px;
+}
+.about .inner h2 {
+font-size: 72px;
+}
+.about .inner p {
+font-size: 34px;
+width: 70%;
+}
+nav ul li a {
+font-size: 24px;
+}
+}
+@media (min-width:768px) and (max-width:1023px) {
+nav ul li {
+font-size: 14px;
+padding-right: 1em;
+}
+.image {
+padding-top: 50px;
+display: table;
+height: 100vh;
+width: 100%;
+text-align: center;
+color: teal;
+font-family: 'Sansita Swashed', cursive;
+font-size: 36px;
+}
+.about .inner {
+width: 80%;
+margin-top: 45px;
+}
+.about .inner p {
+font-size: 20px;
+}
+.about .inner h2 {
+font-size: 42px;
+}
+.education .inner div ul li,
+.skills .inner div ul li {
+font-size: 16px;
+}
+.education .inner h1,
+.skills .inner h2 {
+font-size: 36px;
+}
+.skills {
+background-position-y: 70px;
+background-position-x: 30px;
+}
+.others .inner ul li {
+font-size: 16px;
+width: 80%;
+}
+.strengths h1 {
+font-size: 42px;
+margin-top: 40px;
+}
+.strengths .inner ul li {
+font-size: 20px;
+}
+.strengths .inner {
+width: 80%;
+}
+.contact .inner h1 {
+font-size: 42px;
+}
+.contact .inner p {
+font-size: 22px;
+}
+}
+@media (min-width:425px) and (max-width:767px) {
+html,
+body {
+overflow-x: hidden;
+}
+nav {
+height: 85px;
+}
+nav ul li {
+line-height: 22px;
+}
+.about {
+background-position: center;
+}
+.about .inner {
+width: 80%;
+margin-top: 60px;
+text-align: left;
+}
+.about .inner p {
+font-size: 16px;
+}
+.about .inner h2 {
+font-size: 36px;
+}
+.education .inner h1 {
+font-size: 36px;
+float: center;
+margin-top: 70px;
+}
+.skills .inner h2 {
+float: center;
+width: 90%;
+margin-top: 70px;
+}
+.education .inner div,
+.skills .inner div {
+width: 90%;
+text-align: center;
+font-size: 18px;
+}
+.skills {
+background-position: center;
+}
+.others {
+background-position: center;
+}
+.others .inner ul li {
+font-size: 16px;
+width: 85%;
+}
+.strengths h1 {
+font-size: 30px;
+margin-top: 8px;
+}
+.strengths .inner ul li {
+font-size: 18px;
+}
+.strengths .inner {
+width: 85%;
+padding: 0px 20px;
+}
+.hobbies .inner h1 {
+font-size: 32px;
+}
+.hobbies .inner ul li {
+font-size: 18px;
+width: 90%;
+}
+.contact {
+background-position: center;
+}
+.contact .inner h1 {
+font-size: 36px;
+padding-top: 210px;
+}
+.contact .inner p {
+font-size: 20px;
+}
+}
+@media (min-width:375px) and (max-width:424px) {
+html,
+body {
+overflow-x: hidden;
+}
+nav {
+height: 80px;
+}
+nav ul li a {
+line-height: 20px;
+}
+.about {
+background-position: center;
+}
+.about .inner {
+width: 72%;
+line-height: 19px;
+margin-top: 60px;
+text-align: left;
+}
+.about .inner p {
+font-size: 17px;
+}
+.about .inner h2 {
+font-size: 36px;
+}
+.education .inner h1,
+.skills .inner h2 {
+float: center;
+width: 90%;
+margin-top: 70px;
+font-size: 34px;
+}
+.education .inner div,
+.skills .inner div {
+width: 90%;
+text-align: center;
+font-size: 17px;
+}
+.skills {
+background-position: center;
+}
+.others {
+background-position: center;
+}
+.others .inner ul li {
+font-size: 15px;
+width: 90%;
+line-height: 18px;
+}
+.strengths h1 {
+font-size: 32px;
+margin-top: 10px;
+}
+.strengths .inner ul li {
+font-size: 16px;
+line-height: 19px;
+}
+.strengths .inner {
+width: 80%;
+padding: 0px 20px;
+}
+.hobbies .inner h1 {
+font-size: 30px;
+}
+.hobbies .inner ul li {
+font-size: 18px;
+width: 88%;
+}
+.contact {
+background-position: center;
+}
+.contact .inner h1 {
+font-size: 32px;
+padding-top: 210px;
+}
+.contact .inner p {
+font-size: 18px;
+}
+}
